@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-[#e0e5ec] min-h-screen min-h-[100dvh] flex items-center justify-center p-4 xs:p-6 selection:bg-indigo-500/20 font-sans">
+    <!-- Main Neumorphic Extruded Outer Card -->
+    <main class="w-full max-w-[280px] xs:max-w-xs sm:max-w-md md:max-w-lg rounded-2xl xs:rounded-3xl p-5 xs:p-6 sm:p-8 bg-[#e0e5ec] shadow-[8px_8px_16px_#a3b1c6,-8px_-8px_16px_#ffffff] sm:shadow-[12px_12px_24px_#a3b1c6,-12px_-12px_24px_#ffffff] transition-all duration-300">
+        <div class="space-y-5 xs:space-y-6 sm:space-y-7">
+            <!-- Title Badge -->
+            <div class="text-center">
+                <h1 class="inline-block text-[10px] xs:text-xs font-bold text-slate-500 tracking-wider xs:tracking-widest uppercase px-3 py-1.5 xs:px-4 xs:py-2 rounded-full bg-[#e0e5ec] shadow-[inset_2px_2px_4px_#a3b1c6,inset_-2px_-2px_4px_#ffffff] sm:shadow-[inset_3px_3px_6px_#a3b1c6,inset_-3px_-3px_6px_#ffffff]">
+                    Random Quote Generator
+                </h1>
+            </div>
+
+            <!-- Sunken/Carved Inset Quote Box -->
+            <div class="min-h-[130px] xs:min-h-[150px] sm:min-h-[170px] flex flex-col justify-center text-center space-y-3 sm:space-y-4 bg-[#e0e5ec] p-4 xs:p-5 sm:p-6 rounded-xl xs:rounded-2xl shadow-[inset_4px_4px_8px_#a3b1c6,inset_-4px_-4px_8px_#ffffff] sm:shadow-[inset_6px_6px_10px_#a3b1c6,inset_-6px_-6px_10px_#ffffff] transition-all duration-300">
+                <p id="quote-text" class="text-sm xs:text-base sm:text-lg md:text-xl font-medium italic text-slate-700 leading-relaxed transition-opacity duration-200">
+                    "Loading code..."
+                </p>
+                <p id="author-text" class="text-xs xs:text-sm font-bold text-indigo-600 tracking-wide transition-opacity duration-200">
+                    - Author
+                </p>
+            </div>
+
+            <!-- Action Button with Responsive Touch Target -->
+            <button id="new-quote-btn" class="w-full py-3 xs:py-3.5 sm:py-4 bg-[#e0e5ec] text-indigo-600 font-bold rounded-xl xs:rounded-2xl flex items-center justify-center gap-2 transition-all duration-150 select-none cursor-pointer text-xs xs:text-sm sm:text-base
+               shadow-[4px_4px_8px_#a3b1c6,-4px_-4px_8px_#ffffff] sm:shadow-[6px_6px_12px_#a3b1c6,-6px_-6px_12px_#ffffff] 
+               hover:shadow-[2px_2px_4px_#a3b1c6,-2px_-2px_4px_#ffffff] sm:hover:shadow-[4px_4px_8px_#a3b1c6,-4px_-4px_8px_#ffffff] hover:text-indigo-700
+               active:shadow-[inset_3px_3px_6px_#a3b1c6,inset_-3px_-3px_6px_#ffffff] sm:active:shadow-[inset_4px_4px_8px_#a3b1c6,inset_-4px_-4px_8px_#ffffff] active:scale-[0.98]">
+                <span>New Quote</span>
+                <svg class="w-4 h-4 xs:w-5 xs:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                        d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15">
+                    </path>
+                </svg>
+            </button>
+        </div>
+    </main>
+</body>
+
+</html>
