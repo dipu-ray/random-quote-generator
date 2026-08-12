@@ -1,9 +1,9 @@
 # 🎰 Random Quote Generator
 
 **Created:** August 11, 2026  
-**Last Updated:** August 12, 2026
+**Last Updated:** August 13, 2026
 
-🔗 **Live Demo:** [Click Here 👆]()
+🔗 **Live Demo:** [Click Here 👆](https://random-quote-generator-mauve-rho.vercel.app/)
 
 An aesthetic, real-time quote generator crafted with **HTML**, **Tailwind CSS**, and **Vanilla JavaScript**. Designed around modern **Neumorphic UI** principles, the interface provides a satisfying, touchable experience with soft relief depth, custom interactive button press states, anti-repetition quote logic, and fluid fade transitions.
 
