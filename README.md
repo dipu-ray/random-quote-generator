@@ -1,7 +1,7 @@
 # 🎰 Random Quote Generator
 
 **Created:** August 11, 2026  
-**Last Updated:** August 13, 2026
+**Last Updated:** August 14, 2026
 
 🔗 **Live Demo:** [Click Here 👆](https://random-quote-generator-mauve-rho.vercel.app/)
 
@@ -9,7 +9,7 @@ An aesthetic, real-time quote generator crafted with **HTML**, **Tailwind CSS**,
 
 ---
 
-![Counter App Preview](./assets/images/preview.png)
+![Random Quote Generator Preview](./assets/images/preview.png)
 
 ---
 
